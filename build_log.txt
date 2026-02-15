@@ -1,0 +1,68 @@
+
+> coursewebsite@1.0.0 docs:build
+> vitepress build
+
+
+  vitepress v1.6.4
+
+- building client + server bundles...
+
+
+(!) Found dead link ./CN/Unit-1-CN.ppt in file subjects/CN.md
+(!) Found dead link ./CN/Unit-2_updated.ppt in file subjects/CN.md
+(!) Found dead link ./CN/Unit-3_cn.ppt in file subjects/CN.md
+(!) Found dead link ./CN/unit-IV-cn.ppt in file subjects/CN.md
+(!) Found dead link ./CN/Unit-V-cn.ppt in file subjects/CN.md
+(!) Found dead link ./CN/Unit-VI-cn.ppt in file subjects/CN.md
+(!) Found dead link ./DAA/DAA_Syllabus.docx in file subjects/DAA.md
+(!) Found dead link ./DAA/DAA-Unit-I.ppt in file subjects/DAA.md
+(!) Found dead link ./DAA/Biconnected_components_complete.pptx in file subjects/DAA.md
+(!) Found dead link ./DAA/DAA-Unit-II.ppt in file subjects/DAA.md
+(!) Found dead link ./DAA/DAA-Unit-III.ppt in file subjects/DAA.md
+(!) Found dead link ./DAA/DAA-Unit-IV.ppt in file subjects/DAA.md
+(!) Found dead link ./DAA/DAA-Unit-V.ppt in file subjects/DAA.md
+(!) Found dead link ./DAA/UNIT-6.ppt in file subjects/DAA.md
+(!) Found dead link ./EBD/EBD_-1_UNIT.ppt in file subjects/EBD.md
+(!) Found dead link ./EBD/EBD_-2_UNIT.ppt in file subjects/EBD.md
+(!) Found dead link ./EBD/EBD_-3_UNIT.ppt in file subjects/EBD.md
+(!) Found dead link ./EBD/EBD_-6_UNIT.ppt in file subjects/EBD.md
+(!) Found dead link ./IPR/Unit-IV_Trade_marks_and_Trade_secrets_(1)_(1).ppt in file subjects/IPR.md
+(!) Found dead link ./IPR/Unit_5.pptx in file subjects/IPR.md
+(!) Found dead link ./IPR/Unit_VI_International_Conventions__Treaties_(1).ppt in file subjects/IPR.md
+(!) Found dead link ./IDS/IDS_important_questions.docx in file subjects/IDS.md
+(!) Found dead link ./IDS/Questions_of_IDS.docx in file subjects/IDS.md
+(!) Found dead link ./IDS/IDS_Unit_1_for_A22.pptx in file subjects/IDS.md
+(!) Found dead link ./IDS/IDS_Unit_2_for_A22.pptx in file subjects/IDS.md
+(!) Found dead link ./IDS/IDS_Unit_3_for_A22.pptx in file subjects/IDS.md
+(!) Found dead link ./IDS/IDS_Unit_4_for_A22.docx in file subjects/IDS.md
+(!) Found dead link ./IDS/IDS_Unit_5_for_A22.pptx in file subjects/IDS.md
+(!) Found dead link ./IDS/IDS_Unit_6_for_A22.pptx in file subjects/IDS.md
+(!) Found dead link ./SE/SE_UNIT1.ppt in file subjects/SE.md
+(!) Found dead link ./SE/SE_Unit-II-Part-1.pptx in file subjects/SE.md
+(!) Found dead link ./SE/SE_Unit-II-Part-2.pptx in file subjects/SE.md
+(!) Found dead link ./SE/SE_Unit-III.pptx in file subjects/SE.md
+(!) Found dead link ./SE/SE-_Unit-IV.ppt in file subjects/SE.md
+(!) Found dead link ./SE/SE-Unit-V-Part-1.ppt in file subjects/SE.md
+(!) Found dead link ./SE/SAT-Unit-V-Part-2.ppt in file subjects/SE.md
+(!) Found dead link ./SE/SE_Unit_VI.docx in file subjects/SE.md
+(!) Found dead link ./DWDM/DWDM_UNIT_1_Modified_Syllabus.ppt in file subjects/DWDM.md
+(!) Found dead link ./DWDM/UNIT-2.ppt in file subjects/DWDM.md
+(!) Found dead link ./DWDM/UNIT_III.ppt in file subjects/DWDM.md
+(!) Found dead link ./DWDM/DMDW-4.ppt in file subjects/DWDM.md
+(!) Found dead link ./DWDM/Unit-5.pptx in file subjects/DWDM.md
+(!) Found dead link ./DWDM/Unit_VI_Clustering.ppt in file subjects/DWDM.md
+
+If this is expected, you can disable this check via config. Refer: https://vitepress.dev/reference/site-config#ignoredeadlinks
+
+x Build failed in 463ms
+[31m✖[0m building client + server bundles...
+build error:
+[vitepress] 43 dead link(s) found.
+[vitepress] 43 dead link(s) found.
+    at Object.renderStart (file:///Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:45027:15)
+    at file:///Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/rollup/dist/es/shared/node-entry.js:22548:40
+    at async Promise.all (index 0)
+    at async PluginDriver.hookParallel (file:///Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/rollup/dist/es/shared/node-entry.js:22458:9)
+    at async Bundle.generate (file:///Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/rollup/dist/es/shared/node-entry.js:20603:13)
+    at async file:///Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/rollup/dist/es/shared/node-entry.js:23535:27
+    at async catchUnfinishedHookActions (file:///Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/rollup/dist/es/shared/node-entry.js:22902:16)

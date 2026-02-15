@@ -1,0 +1,41 @@
+
+> coursewebsite@1.0.0 docs:build
+> vitepress build
+
+
+  vitepress v1.6.4
+
+- building client + server bundles...
+x Build failed in 75ms
+[31m✖[0m building client + server bundles...
+build error:
+[vite:vue] [vue/compiler-sfc] Unexpected token (58:1)
+
+/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/.vitepress/theme/components/PPTViewer.vue
+73 |      }
+74 |    }
+75 |  })
+   |   ^
+76 |  
+77 |  const nextSlide = () => {
+file: /Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/.vitepress/theme/components/PPTViewer.vue:58:1
+[vite:vue] [vue/compiler-sfc] Unexpected token (58:1)
+
+/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/.vitepress/theme/components/PPTViewer.vue
+73 |      }
+74 |    }
+75 |  })
+   |   ^
+76 |  
+77 |  const nextSlide = () => {
+file: /Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/.vitepress/theme/components/PPTViewer.vue:58:1
+    at constructor (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:365:19)
+    at Parser.raise (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:6599:19)
+    at Parser.unexpected (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:6619:16)
+    at Parser.parseExprAtom (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:11442:22)
+    at Parser.parseExprSubscripts (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:11081:23)
+    at Parser.parseUpdate (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:11066:21)
+    at Parser.parseMaybeUnary (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:11046:23)
+    at Parser.parseMaybeUnaryOrPrivate (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:10899:61)
+    at Parser.parseExprOps (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:10904:23)
+    at Parser.parseMaybeConditional (/Users/kotaratnakar/Downloads/ExportBlock-850372be-4fae-4547-aae5-f6024767f74f-Part-1/CourseWebsite/node_modules/@babel/parser/lib/index.js:10881:23)

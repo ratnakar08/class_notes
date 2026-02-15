@@ -1,0 +1,28 @@
+# Node Dependencies
+node_modules/
+package-lock.json
+# (Keep package-lock.json if you want to lock versions, but sometimes people ignore it. I'll include it in comments or just track it if it's standard. Standard is to TRACK package-lock. So I will NOT ignore package-lock unless requested. I'll ignore standard stuff.)
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# VitePress Build Output
+.vitepress/dist/
+.vitepress/cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary Scripts (Optional, remove if you want to track them)
+fix_links.py
+inject_viewer.py
+link_to_viewer.py
+move_and_fix.py
+refactor.py
+test_import.js
+
+# Editors
+.vscode/
+.idea/
