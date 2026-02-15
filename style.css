@@ -253,6 +253,17 @@ a {
     flex-grow: 1;
 }
 
+.resource-card > .btn-quick-view {
+    width: 100%;
+}
+
+.card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+}
+
 .btn-quick-view {
     background: var(--primary-blue);
     color: white;
@@ -260,12 +271,33 @@ a {
     border-radius: 6px;
     font-size: 0.9rem;
     font-weight: 500;
-    width: 100%;
+    flex: 1;
+    min-width: 0;
+    text-align: center;
     transition: background 0.2s;
 }
 
 .btn-quick-view:hover {
     background: var(--hover-blue);
+}
+
+.btn-download-pdf {
+    background: transparent;
+    color: var(--primary-blue);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 2px solid var(--primary-blue);
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-download-pdf:hover {
+    background: var(--primary-blue);
+    color: white;
 }
 
 /* --- ICONS COLORS --- */
